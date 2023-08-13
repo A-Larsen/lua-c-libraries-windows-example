@@ -2,10 +2,13 @@
 
 
 == Building
-WARNING: before building make sure that your `LUA_DEV` enviornment variable is
-set to the path of your lua _.lib_ file
 
-change `$env:LUA_DEV` in config.ps1 to the location of your lua exe path
+WARNING: tst.lua will not run correctly if you do not set environment variables
+         in config.ps1 correctly
+
+change `$env:LUA_DEV` in config.ps1 to the location of your lua exeutable and
+lua _.lib_ file (here I am assuming they are in the same location). change
+`$env:LUA_INC` to the path of your lua include files
 
 In the Developer Powershell command promt run
 
