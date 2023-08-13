@@ -5,6 +5,8 @@
 WARNING: before building make sure that your `LUA_DEV` enviornment variable is
 set to the path of your lua _.lib_ file
 
+change `$env:LUA_DEV` in config.ps1 to the location of your lua exe path
+
 In the Developer Powershell command promt run
 
 [source, ps1]
@@ -27,6 +29,10 @@ execute like this. This example assumes your lua executable is named `lua`.
 ----
 .\lua tst.lua
 ----
+
+== Dependencies
+- Micorsoft visual studio compiler
+- https://www.lua.org/download.html[lua]
 
 
 == Links
