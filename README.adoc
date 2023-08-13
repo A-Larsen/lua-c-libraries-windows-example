@@ -31,7 +31,7 @@ execute like this. This example assumes your lua executable is named `lua`.
 ----
 
 == Dependencies
-- Micorsoft visual studio compiler
+- https://developer.microsoft.com/en-us/windows/downloads/[Micorsoft visual studio compiler]
 - https://www.lua.org/download.html[lua]
 
 
