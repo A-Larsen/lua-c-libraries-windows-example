@@ -1,0 +1,6 @@
+build: lib.c
+	cl.exe /LD lib.c /link "%LUA_DEV%\lua.lib"
+	MOVE /Y lib.dll test
+   	DEL	lib.exp 
+	DEL lib.lib 
+	DEL lib.obj 

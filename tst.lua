@@ -1,0 +1,5 @@
+local mylib = require("test")
+mylib.hello()
+mylib.goodbye()
+local out = mylib.add(12, 12)
+print("out: " .. out)

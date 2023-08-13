@@ -1,0 +1,34 @@
+== lua c libraries windows
+
+
+== Building
+WARNING: before building make sure that your `LUA_DEV` enviornment variable is
+set to the path of your lua _.lib_ file
+
+In the Developer Powershell command promt run
+
+[source, ps1]
+----
+.\config.ps1
+----
+
+then run
+
+[source, ps1]
+----
+nmake.exe -f .\Makefile.win
+----
+
+== Runing the program
+
+execute like this. This example assumes your lua executable is named `lua`.
+
+[source, ps1]
+----
+.\lua tst.lua
+----
+
+
+== Links
+https://learn.microsoft.com/en-us/cpp/build/reference/md-mt-ld-use-run-time-library?view=msvc-170&source=recommendations[/LD option]
+http://lua-users.org/lists/lua-l/2007-05/msg00221.html[LUA_PATH]
